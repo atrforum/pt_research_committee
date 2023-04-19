@@ -237,7 +237,7 @@ social:
   - title: linkedin
     url: https://www.linkedin.com/groups/7066450/
   - title: github
-    url: https://github.com/atrforum/transport_research_committee
+    url: https://github.com/atrforum/pt_research_committee
 
 # Build settings
 markdown: kramdown
