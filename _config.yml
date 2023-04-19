@@ -1,17 +1,27 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://atrforum.github.io/transport_research_committee
+baseurl:
 
 # Site settings
-title: Awesome Title
+title: PTRC
 email: your-email@domain.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
+research_needs:
+- title: E-Commerce
+  description: How can growing e-commerce help fund public transport. Can off-peak capacity on fixed-route public transport play a role in freight distribution?
+
+- title: MaaS
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+- title: Impact of flat fares in urban form
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Graham Currie
   pic: 1
-  position: Lead Designer
+  position: Chair
   social:
     - title: twitter
       url: #
@@ -19,21 +29,19 @@ people:
       url: #
     - title: stack-overflow
       url: #
-
-- name: Larry Parker
+- name: Pedro Camargo
   pic: 2
-  position: Lead Marketer
+  position: Co-vice chair
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
     - title: linkedin
-      url: #
-
-- name: Diana Petersen
+      url: https://www.linkedin.com/in/pedrocamargo/
+- name: Subeh Chowdhury
   pic: 3
-  position: Lead Developer
+  position: Co-vice chair
   social:
     - title: twitter
       url: #
@@ -41,24 +49,195 @@ people:
       url: #
     - title: google-plus
       url: #
+- name: James Reynolds
+  pic: 4
+  position: Secretary
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+- name: Hamish Barnet
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Kelly Bertolaccini
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Euan Brown
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Jon Bunker
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Geoffrey Clifton
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Fuad Huda
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Kathy Lazanas
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Neema Nassir
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: John Nelson
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Peter Newman
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Brendan O'Keeffe
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Mark O'Reilly
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Sekhar Somenahalli
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Ian Wallis
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Adrian Webb
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Doug Weir
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+- name: Ian Woodcock
+  pic: 5
+  position: member
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+
+resources:
+  databases:
+  - name: ATRF Public Transport papers
+    url: https://australasiantransportresearchforum.org.au/papers/?sdata=public+transport
+  - name: world transit research
+    url: https://www.worldtransitresearch.info/
+  - name: TCRP publications
+    url: https://nap.nationalacademies.org/author/TCRP/transportation-research-board/transit-cooperative-research-program
+
+  podcasts:
+  - name: Researching Transit
+    url: http://publictransportresearchgroup.info/home-creative/podcast/
+  - name: The Overhead Wire
+    url: https://theoverheadwire.com/
+  - name: Transit Unplugged
+    url: https://www.transitunplugged.com/
+  - name: "Between The Lines: A Metrolinx Podcast"
+    url: https://podcasts.apple.com/us/podcast/between-the-lines-a-metrolinx-podcast/id1593439320
+
+  anz_research_centres:
+  - name: TRC (University of Auckland)
+    url: https://www.auckland.ac.nz/en/engineering/our-research/discover/research-areas-and-facilities/transportation.html
+  - name: Public Transport Research Group (Monash)
+    url: http://publictransportresearchgroup.info/
+    
+  other:
+  - name: example
+    url: #
+
+
+events:
+  - name: 44th ATRF
+    location: Perth
+    date: 29 Nov-1 - Dec 2023
+    url: https://australasiantransportresearchforum.org.au/news/2023-conference-perth/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/groups/7066450/
   - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+    url: https://github.com/atrforum/transport_research_committee
 
 # Build settings
 markdown: kramdown

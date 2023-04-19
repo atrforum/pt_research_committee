@@ -1,0 +1,23 @@
+<!-- Services Section -->
+    <section id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Events</h3>
+                    <h3 class="section-subheading text-muted">Industry and academic events related to public transport</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for site_item in site.events %}
+                <div class="col-sm-3"  style="{border: solid 1px #eeeeee, border-radius: 10px;}"">
+                    <h4 class="service-heading">{{ site_item.name }}</h4>
+                    <ul>
+                        <li class="event-li">Location: {{ site_item.location }}</li>
+                        <li class="event-li">Date: {{ site_item.date }}</li>
+                        <li class="event-li"><a href={{ site_item.url }}>Event website</a></li>
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+        </div>        
+    </section>

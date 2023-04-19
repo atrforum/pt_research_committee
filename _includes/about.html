@@ -1,80 +1,73 @@
+<style>
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      text-align: left;
+      padding: 16px;
+      text-decoration: none;
+    }
+    </style>
 <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
+                <h2 class="section-heading" style="margin-bottom:5mm;">About</h2>
+                <p>Established in 2023, the Australasian Transport Research Forum - Public Transport Research Committee 
+                                        (ATRF-PTRC) is a team of transportation professionals from academia, government and industry volunteering 
+                                        to push public transport research stronger in Australasia.</p>
+
+                                        <div>The aim of ATRF-PTRC is: </div>
+
+                <h3  class="col-lg-12 text-center" style="margin-bottom:5mm;">“to promote, improve and enhance quality public transport research in Australia / New Zealand 
+                                                    and to better focus research on the needs of Australasian public transport (applied research).”</h3>
+  
+                <body>We operate as a standing committee of the Australasian Transport Research Forum Inc.  Our major activities are :</body>
+
+                <!-- <div class="col-lg-12 text-center"  style="margin-bottom:5mm;"> -->
+                    <!-- <ul> -->
+                    <ul  class="col-lg-12 text-center"  style="margin-bottom:5mm;">
+                        <li>to document RESEARCH NEEDS in the field</li>
+                        <li>to run topical WEBINARS in topical areas of public transport research</li>
+                        <li>to support the work of ATRF in its ANNUAL CONFERENCE notably in generating research contributions in the area of public transport</li>
+                        <li>to encourage funding of public transport research focussed on industry needs.</li>
+                    </ul>
+                <!-- </div> -->
+                    <div class="col-lg-12 text-center" ><p>The committee meets every few months to further these activities.  You can become a friend of the committee 
+                            by contacting the committee chair.  All members and friends of the committee must be members of ATRF Inc.  
+                            See details on how to apply for membership here.</p></div></p>
+                        
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-heading">Committee members</h3>
+                    <h3 class="section-subheading text-muted">All the members are volunteers</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </section>
