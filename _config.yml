@@ -156,13 +156,11 @@ people:
   - title: linkedin
     url: #
 - name: Sekhar Somenahalli
-  pic: 5
+  pic: sekhar
   position: member
   social:
-  - title: twitter
-    url: #
   - title: linkedin
-    url: #
+    url: https://people.unisa.edu.au/sekhar.somenahalli
 - name: Ian Wallis
   pic: 5
   position: member
