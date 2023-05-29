@@ -100,13 +100,17 @@ people:
   - title: linkedin
     url: #
 - name: Fuad Huda
-  pic: 5
+  pic: fuadh.jpg
   position: member
   social:
   - title: twitter
     url: #
   - title: linkedin
-    url: #
+    url: https://www.linkedin.com/in/fuad-yasin-huda-39105538/
+  - title: scholar
+    url: https://scholar.google.co.uk/citations?user=CykERRoAAAAJ&hl=en
+  - website: personal
+    url: http://publictransportresearchgroup.info/our-team/research-students/fuad-huda/
 - name: Kathy Lazanas
   pic: 5
   position: member
