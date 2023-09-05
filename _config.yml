@@ -68,13 +68,11 @@ people:
   - title: linkedin
     url: #
 - name: Kelly Bertolaccini
-  pic: 5
+  pic: kelly
   position: member
   social:
-  - title: twitter
-    url: #
   - title: linkedin
-    url: #
+    url: https://www.linkedin.com/in/kelly-bertolaccini-9a261448/
 - name: Euan Brown
   pic: 5
   position: member
