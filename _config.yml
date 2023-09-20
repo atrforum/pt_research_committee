@@ -18,10 +18,11 @@ research_needs:
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
 # Team names, titles and social links
-people:
+leadership:
 - name: Graham Currie
   pic: 1
   position: Chair
+  url: #
   social:
     - title: twitter
       url: #
@@ -29,19 +30,10 @@ people:
       url: #
     - title: stack-overflow
       url: #
-- name: Pedro Camargo
-  pic: 2
-  position: Co-vice chair
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: https://www.linkedin.com/in/pedrocamargo/
 - name: Subeh Chowdhury
   pic: 3
   position: Co-vice chair
+  url: #
   social:
     - title: twitter
       url: #
@@ -49,6 +41,17 @@ people:
       url: #
     - title: google-plus
       url: #
+- name: Pedro Camargo
+  pic: 2
+  position: Co-vice chair
+  url: https://www.xl-optim.com/
+  social:
+    - title: user
+      url: https://www.xl-optim.com/
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/pedrocamargo/
 - name: James Reynolds
   pic: 4
   position: Secretary
@@ -59,6 +62,15 @@ people:
       url: #
     - title: google-plus
       url: #
+- name: Geoffrey Clifton
+  pic: 5
+  position: Research Needs Coordinator
+  social:
+  - title: twitter
+    url: #
+  - title: linkedin
+    url: #
+people:
 - name: Hamish Barnet
   pic: 5
   position: member
@@ -84,14 +96,6 @@ people:
   - title: linkedin
     url: #
 - name: Jon Bunker
-  pic: 5
-  position: member
-  social:
-  - title: twitter
-    url: #
-  - title: linkedin
-    url: #
-- name: Geoffrey Clifton
   pic: 5
   position: member
   social:

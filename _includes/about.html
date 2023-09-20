@@ -15,32 +15,66 @@
         <div class="container">
             <div class="row">
                 <h2 class="section-heading" style="margin-bottom:5mm;">About</h2>
-                <p>Established in 2023, the Public Transport Research Committee is a branch of the Australian Transport 
-                    Forum (ATRF-PTRC). The committee, a group of professionals leaders in the field of public transport, 
+                <p>Established in 2023, the Public Transport Research Committee is a branch of the <a href="https://australasiantransportresearchforum.org.au/">Australasian Transport Forum (ATRF)</a>.
+                    The committee, a group of professionals leaders in the field of public transport, 
                     aim to contribute through innovative research ideas and provide support to the annual ATRF 
-                    conference.  It membership is representative of Australia and New Zealand, with leaders from 
-                    academia and industry</p>
-
+                    conference.  Its membership is representative of Australia and New Zealand, with leaders from 
+                    academia and industry. Anyone can become a member of ATRF by applying 
+                    <a href="https://australasiantransportresearchforum.org.au/become-a-member/">here</a>. (it's free)</p>
+                    
                                         <div>The aim of ATRF-PTRC is: </div>
 
                 <h3  class="col-lg-12 text-center" style="margin-bottom:5mm;">“to promote, improve and enhance quality public transport research in Australia / New Zealand 
                                                     and to better focus research on the needs of Australasian public transport (applied research).”</h3>
   
-                <p>As a standing committee, its members carry out public-transport focused webinars, and topic 
-                    relevant for both industry and researchers worldwide. Members also engage in providing guidance 
-                    for funding allocation towards public transport research with an applied output for industry.</p>
+                <p>As a standing committee, its members carry out public-transport focused webinars on topics
+                   relevant for both industry and researchers worldwide. Members also engage in providing guidance 
+                   for funding allocation towards public transport research with an applied output for industry.</p>
                     
                 <p>The current president of ATRF-PTRC is Professor Graham Currie from Monash University, who is 
-                    support by two vice-chairs, Dr Pedro Camargo  and Dr Subeh Chowdhury from University of 
-                    Auckland. Current secretary is Dr James Reynolds, Monash University. The committee has a student 
+                    supported by two vice-chairs, Dr Pedro Camargo  and Dr Subeh Chowdhury from the University of 
+                    Auckland. Current secretary is Dr James Reynolds, Monash University, and Dr. Geoffrey Clifton is the Research 
+                    Needs Coordinator. The committee has a student 
                     stream, led by Mr. Fuad Huda, doctoral candidate at Monash University.</p>
+
+                <p> To become a member or friend of the PTRC contact the <a href="mailto:graham.currie@monash.edu">committee chair</a>. 
+                    All members of the PTRC must be members of ATRF (it's free)</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">Leadership team</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for member in site.leadership %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href={{member.url}}>
+                            <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="section-heading">Committee members</h3>
-                    <h3 class="section-subheading text-muted">All the members are volunteers</h3>
                 </div>
             </div>
             <div class="row">
@@ -65,4 +99,5 @@
                 {% endfor %}
             </div>
         </div>
+
     </section>
