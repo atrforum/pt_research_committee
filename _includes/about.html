@@ -51,7 +51,7 @@
                 {% for member in site.leadership %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href={{member.url}}>
+                        <a href="{{member.url}}"  target="_blank" rel="noopener noreferrer">
                             <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                         </a>
                         <h4>{{ member.name }}</h4>
@@ -59,7 +59,7 @@
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
@@ -87,7 +87,7 @@
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}">
+                                <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
