@@ -12,7 +12,7 @@
                 {% for database in site.resources.databases %}
                 <div>
                     <ul>
-                        <li class="event-li"><a href={{ database.url }}>{{ database.name }}</a></li>
+                        <li class="event-li"><a href={{ database.url }} target="_blank" rel="noopener noreferrer">{{ database.name }}</a></li>
                     </ul>
                 </div>
                 {% endfor %}
@@ -24,7 +24,7 @@
                 {% for site_item in site.resources.podcasts %}
                 <div>
                     <ul>
-                        <li class="event-li"><a href={{ site_item.url }}>{{ site_item.name }}</a></li>
+                        <li class="event-li"><a href={{ site_item.url }} target="_blank" rel="noopener noreferrer">{{ site_item.name }}</a></li>
                     </ul>
                 </div>
                 {% endfor %}
@@ -35,7 +35,7 @@
                 {% for site_item in site.resources.anz_research_centres %}
                 <div>
                     <ul>
-                        <li class="event-li"><a href={{ site_item.url }}>{{ site_item.name }}</a></li>
+                        <li class="event-li"><a href={{ site_item.url }} target="_blank" rel="noopener noreferrer">{{ site_item.name }}</a></li>
                     </ul>
                 </div>
                 {% endfor %}
@@ -47,7 +47,7 @@
                 {% for site_item in site.resources.other %}
                 <div>
                     <ul>
-                        <li class="event-li"><a href={{ site_item.url }}>{{ site_item.name }}</a></li>
+                        <li class="event-li"><a href={{ site_item.url }}>{{ site_item.name }} target="_blank" rel="noopener noreferrer"</a></li>
                     </ul>
                 </div>
                 {% endfor %}

@@ -7,16 +7,31 @@
                     <h3 class="section-subheading text-muted">Industry and academic events related to public transport</h3>
                 </div>
             </div>
+            <div class="col-lg-12 text-center">
+                <h4 class="section-heading">Conferences</h4>
+            </div>
             <div class="row">
                 {% for site_item in site.events %}
-                <div class="col-sm-3"  style="{border: solid 1px #eeeeee, border-radius: 10px;}"">
-                    <h4 class="service-heading">{{ site_item.name }}</h4>
-                    <ul>
-                        <li class="event-li">Location: {{ site_item.location }}</li>
-                        <li class="event-li">Date: {{ site_item.date }}</li>
-                        <li class="event-li"><a href={{ site_item.url }}>Event website</a></li>
-                    </ul>
-                </div>
+                <a href={{ webinar.url }}  target="_blank" rel="noopener noreferrer">
+                    <div class="col-sm-3"  style="{border: solid 1px #eeeeee, border-radius: 10px;}"">
+                        <h4 class="service-heading">{{ site_item.name }}</h4>
+                        <ul>
+                            <li class="event-li">Location: {{ site_item.location }}</li>
+                            <li class="event-li">Date: {{ site_item.date }}</li>
+                        </ul>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            <div class="col-lg-12 text-center">
+                <h4 class="section-heading">Webinars</h4>
+            </div>
+            <div class="row">
+                {% for webinar in site.webinars %}
+                <a href={{ webinar.url }}  target="_blank" rel="noopener noreferrer">
+                        <h4 class="service-heading">{{ webinar.name }}</h4>
+                        <p class="text-muted">{{ webinar.description }}</p>
+                </a>
                 {% endfor %}
             </div>
         </div>        
