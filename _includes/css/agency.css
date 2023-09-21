@@ -172,7 +172,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff067;
 }
 
 .navbar-default .navbar-brand {
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #fff067;
 }
 
 .navbar-default .navbar-collapse {
@@ -193,16 +193,16 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #fff067;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #ff0000;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #fff067;
 }
 
 .navbar-default .nav li a {
@@ -210,7 +210,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.primary }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -219,18 +219,18 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #fff067;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #424141;
+    color: #fff067;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #000000;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #ffffff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -287,7 +287,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.secondary}};
+    color: #fff067;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -297,6 +298,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
+    color: #ffffff;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -311,6 +313,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
+        color: #ffffff;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -320,6 +323,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
+        color: #ffffff;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -677,10 +681,11 @@ ul.social-buttons {
 }
 
 
-.event-li:after { content: "\a"; white-space: pre; }
+/* .event-li:after { content: "\a"; white-space: pre; } */
 
 .event-li a {
     color: {{ site.data.template.color.primary}};
+    font-size: 20px;
 }
 
 

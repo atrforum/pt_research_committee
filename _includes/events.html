@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 {% for site_item in site.events %}
-                <a href={{ webinar.url }}  target="_blank" rel="noopener noreferrer">
+                <a href={{ site_item.url }}  target="_blank" rel="noopener noreferrer">
                     <div class="col-sm-3"  style="{border: solid 1px #eeeeee, border-radius: 10px;}"">
                         <h4 class="service-heading">{{ site_item.name }}</h4>
                         <ul>
