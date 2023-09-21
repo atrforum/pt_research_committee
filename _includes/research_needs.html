@@ -4,23 +4,21 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h3 class="section-heading">Research Needs</h3>
-                    <h3 class="section-subheading text-muted">Main research needs identified so far. WE ALSO NEED Geoffrey Clifton's text here</h3>
                 </div>
-            </div>
-            <div class="row">
-                {% for member in site.research_needs %}
-                <div class="col-sm-4">
-                    <div class="row text-center">
-                        <div class="col-md-4">
-                            <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                                <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
+
+                <div class="p-large"> PTRC compiles a list of research projects which are needed in Australasia.  This includes:</div>
+                <div>
+                    {% for site_item in site.research_needs %}
+                    <div>
+                        <ul>
+                            <li class="event-li"><a href="{{ site_item.url }}" target="_blank" rel="noopener noreferrer">{{ site_item.text }}</a></li>
+                        </ul>
                     </div>
-                    <h4 class="service-heading">{{ member.title }}</h4>
-                    <p class="text-muted">{{ member.description }}</p>
-                </div>
                 {% endfor %}
+                <ul>
+                    <li class="event-li"><a href="https://docs.google.com/forms/d/e/1FAIpQLSc1NWF3mpvbUERh4D35tg2ATgEzn6J4xQX_m-lU484E-tSjAQ/viewform" target="_blank" rel="noopener noreferrer">Suggest a research need we are missing!</a></li>
+                </ul>
+                </div>
             </div>
         </div>
+    </section>

@@ -8,14 +8,11 @@ description: "Write an awesome description for your new site here. You can edit 
 
 
 research_needs:
-- title: E-Commerce
-  description: How can growing e-commerce help fund public transport. Can off-peak capacity on fixed-route public transport play a role in freight distribution?
+- text: An ongoing list of research needs suggested by interested parties (researchers, consultants, users, the public etc)
+  url: #
+- text: An annual survey of authorities responsible for operating and planning public transport in Australasia
+  url: #
 
-- title: MaaS
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-
-- title: Impact of flat fares in urban form
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
 # Team names, titles and social links
 leadership:
