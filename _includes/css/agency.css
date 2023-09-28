@@ -474,6 +474,29 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+    width: 85% !important;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
@@ -509,6 +532,10 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+
+    .team-member {
+        height: 350px;
+    }
 }
 
 @media(min-width:992px) {
@@ -535,6 +562,7 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+    
 }
 
 @media(min-width:1200px) {
@@ -559,27 +587,11 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
+    .team-member {
+        height: 400px;
+    }
 }
 
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
-
-.team-member img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.team-member h4 {
-    margin-top: 25px;
-    margin-bottom: 0;
-    text-transform: none;
-}
-
-.team-member p {
-    margin-top: 0;
-}
 
 aside.clients img {
     margin: 50px auto;
@@ -691,8 +703,8 @@ ul.social-buttons {
 
 ul.social-buttons li a {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     font-size: 20px;
     line-height: 20px;

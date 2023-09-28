@@ -1,17 +1,21 @@
 <!-- Services Section -->
     <section id="research_needs">
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding: 0px 30px;">
                 <div class="col-lg-12 text-center">
                     <h3 class="section-heading">Research Needs</h3>
                 </div>
 
-                <div class="p-large"> PTRC compiles a list of research projects which are needed in Australasia.  This includes:</div>
+                <p style="font-weight: 700; font-size: 18px; padding-left: 47px;"> PTRC compiles a list of research projects which are needed in Australasia.  This includes:</p>
                 <div>
                     {% for site_item in site.research_needs %}
                     <div>
                         <ul>
-                            <li class="event-li"><a href="{{ site_item.url }}" target="_blank" rel="noopener noreferrer">{{ site_item.text }}</a></li>
+                            <div>
+                            <li class="event-li" style="width: 100%;">
+                                    <a href="{{ site_item.url }}" style="padding: 7px; font-size: 14px;" target="_blank" rel="noopener noreferrer">{{ site_item.text }}</a>
+                                
+                            </li>
                         </ul>
                     </div>
                 {% endfor %}

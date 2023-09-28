@@ -13,7 +13,7 @@
 <!-- About Section -->
     <section id="about">
         <div class="container">
-            <div class="row">
+            <div class="row" style="padding: 30px;">
                 <h2 class="section-heading" style="margin-bottom:5mm;">About</h2>
                 <p>Established in 2023, the Public Transport Research Committee is a branch of the <a href="https://australasiantransportresearchforum.org.au/">Australasian Transport Forum (ATRF)</a>.
                     The committee, a group of professionals leaders in the field of public transport, 
@@ -22,9 +22,9 @@
                     academia and industry. Anyone can become a member of ATRF by applying 
                     <a href="https://australasiantransportresearchforum.org.au/become-a-member/">here</a>. (it's free)</p>
                     
-                                        <div>The aim of ATRF-PTRC is: </div>
+                <div style="font-weight: 700; font-size: 16px; padding: 15px 0px;">The aim of ATRF-PTRC is: </div>
 
-                <h3  class="col-lg-12 text-center" style="margin-bottom:5mm;">“to promote, improve and enhance quality public transport research in Australia / New Zealand 
+                <h3  class="col-lg-12 text-center" style="margin-bottom:5mm;font-size: 14px;font-weight: 700;">“to promote, improve and enhance quality public transport research in Australia / New Zealand 
                                                     and to better focus research on the needs of Australasian public transport (applied research).”</h3>
   
                 <p>As a standing committee, its members carry out public-transport focused webinars on topics
@@ -87,7 +87,7 @@
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
                             <li>
-                                <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
+                                <a style="padding: 18px 21px;" href="{{ network.url }}" target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-{{ network.title }}"></i>
                                 </a>
                             </li>
