@@ -236,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 37.5px 0;
         border: 0;
         background-color: transparent;
         -webkit-transition: padding .3s;
@@ -268,6 +268,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #c6c7c4;
+
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center top;
