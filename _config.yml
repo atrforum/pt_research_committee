@@ -156,8 +156,9 @@ people:
     # - title: google-plus
     #   url: #
 - name: Peter Newman
-  pic: 5
+  pic: peternewman
   position: member
+  url: https://en.wikipedia.org/wiki/Peter_Newman_(environmental_scientist)
   social:
     # - title: twitter
     #   url: #
@@ -188,6 +189,7 @@ people:
 - name: Sekhar Somenahalli
   pic: sekhar
   position: member
+  url: https://people.unisa.edu.au/sekhar.somenahalli
   social:
   - title: linkedin
     url: https://people.unisa.edu.au/sekhar.somenahalli
@@ -212,15 +214,14 @@ people:
     # - title: google-plus
     #   url: #
 - name: Doug Weir
-  pic: 5
+  pic: dougweir
   position: member
+  url: 
   social:
-    # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
+    - title: briefcase
+      url: •	https://www.stantec.com/en/people/w/weir-doug
+    - title: linkedin
+      url: •	https://www.linkedin.com/in/doug-weir-792abbb2/
 - name: Ian Woodcock
   pic: 5
   position: member
