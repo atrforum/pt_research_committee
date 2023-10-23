@@ -156,8 +156,9 @@ people:
     # - title: google-plus
     #   url: #
 - name: Peter Newman
-  pic: 5
+  pic: peternewman
   position: member
+  url: https://en.wikipedia.org/wiki/Peter_Newman_(environmental_scientist)
   social:
     # - title: twitter
     #   url: #
