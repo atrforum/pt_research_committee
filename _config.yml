@@ -267,12 +267,18 @@ resources:
 
 
 events:
-  - name: 44th ATRF
-    location: Perth
-    date: 29 Nov-1 - Dec 2023
-    url: https://australasiantransportresearchforum.org.au/news/2023-conference-perth/
+  - name: Webinar On-Demand Public Transport in Australia and New Zealand
+    location: On-line
+    date: 26 Jul 2024
+    url: https://monash.zoom.us/webinar/register/WN_CjsE6AvYQkairi4POGbNnA#/registration/
+
+  - name: 45th ATRF
+    location: Melbourne
+    date: 27-29 Nov 2024
+    url: https://www.atrf2024.com/
 
 webinars:
+
   - name: Trackless Trams - a New Mid-Tier Transit System
     url: https://www.youtube.com/watch?v=_sZ4xpqvIhg
     description: The need for mid-tier transit in Australasian cities is growing as we recognise the role that can be played as a high-capacity connector down main roads and an enabler of urban regeneration around station precincts. This is part of the global process described as a Movement and Place Strategy which was started by TfL. Added to this is the new dimension of net zero. The Webinar will build on a research project at Curtin that has worked with communities, local governments, state agencies and industry (including Stantec) across Australasia, to help better define what can be done to create a Transit Activated Corridor (TAC) or a Net Zero Corridor (NZC). It is globally significant work that has been recognised by groups like the World Economic Forum and the UNFCCC in Sharm El Sheikh at COP 27. Videos, academic papers, industry reports and media have all helped to present the perspective of the three presenters and there has been considerable debate as the concept was applied to Townsville, Liverpool (Syd), Wyndham (Melb), Perth and Bunbury. Two trackless trams are due to arrive in Australia for testing in August and new opportunities are emerging for their application.
