@@ -267,17 +267,16 @@ resources:
 
 
 upcoming_events:
-  - name: Webinar On-Demand Public Transport in Australia and New Zealand
-    location: On-line
-    date: 26 Jul 2024
-    url: https://monash.zoom.us/webinar/register/WN_CjsE6AvYQkairi4POGbNnA#/registration/
-
   - name: 45th ATRF
     location: Melbourne
     date: 27-29 Nov 2024
     url: https://www.atrf2024.com/
 
 past_webinars:
+
+  - name: Webinar On-Demand Public Transport in Australia and New Zealand
+    url: https://www.youtube.com/watch?v=LKLP65cJL1w
+    description: This webinar explores the role of on-demand public transport in Australia and New Zealand. It discusses several case studies with examples from successful public transport operators.
 
   - name: Trackless Trams - a New Mid-Tier Transit System
     url: https://www.youtube.com/watch?v=_sZ4xpqvIhg
