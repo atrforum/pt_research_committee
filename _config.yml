@@ -65,7 +65,7 @@ leadership:
     #   url: #
 
 - name: Geoffrey Clifton
-  pic: 5
+  pic: geoff
   position: Research Needs Coordinator
   social:
   # - title: twitter
@@ -75,7 +75,7 @@ leadership:
 
 people:
 - name: Hamish Barnet
-  pic: 5
+  pic: hamish
   position: member
   social:
     # - title: twitter
@@ -85,7 +85,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Kelly Bertolaccini
-  pic: 5
+  pic: kelly
   position: member
   social:
     # - title: twitter
@@ -95,7 +95,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Euan Brown
-  pic: 5
+  pic: euan
   position: member
   social:
     # - title: twitter
@@ -105,7 +105,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Jon Bunker
-  pic: 5
+  pic: jonathan
   position: member
   social:
     # - title: twitter
@@ -167,7 +167,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Brendan O'Keeffe
-  pic: 5
+  pic: brendan
   position: member
   social:
     # - title: twitter
@@ -204,7 +204,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Adrian Webb
-  pic: 5
+  pic: adrian
   position: member
   social:
     # - title: twitter
@@ -223,7 +223,7 @@ people:
     - title: linkedin
       url: •	https://www.linkedin.com/in/doug-weir-792abbb2/
 - name: Ian Woodcock
-  pic: 5
+  pic: ian
   position: member
   social:
     # - title: twitter
