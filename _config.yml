@@ -75,7 +75,7 @@ leadership:
 
 people:
 - name: Hamish Barnet
-  pic: 5
+  pic: hamish
   position: member
   social:
     # - title: twitter
@@ -105,7 +105,7 @@ people:
     # - title: google-plus
     #   url: #
 - name: Jon Bunker
-  pic: 5
+  pic: jonathan
   position: member
   social:
     # - title: twitter
