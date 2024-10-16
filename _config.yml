@@ -243,7 +243,8 @@ resources:
     url: https://nap.nationalacademies.org/author/TCRP/transportation-research-board/transit-cooperative-research-program
   - name: Public Transport Research Reports of the NZ Transport Agency (Waka Kotahi)
     url: https://www.nzta.govt.nz/walking-cycling-and-public-transport/public-transport/planning-and-investing-in-public-transport/public-transport-research
-
+  - name: PTRC live list of public transport data resources
+    url: https://docs.google.com/spreadsheets/d/1E-M-SUzQu0D6BE9kniDRaitEbBuDDyieQpqCzVS3rOs/edit?gid=0#gid=0
 
   podcasts:
   - name: Researching Transit
