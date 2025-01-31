@@ -37,10 +37,6 @@ leadership:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
 
 - name: Pedro Camargo
   pic: 2
@@ -59,19 +55,6 @@ leadership:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
-
-- name: Geoffrey Clifton
-  pic: geoff
-  position: Research Needs Coordinator
-  social:
-  # - title: twitter
-  #   url: #
-  # - title: linkedin
-  #   url: #
 
 people:
 - name: Hamish Barnet
@@ -80,39 +63,30 @@ people:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
-- name: Kelly Bertolaccini
-  pic: kelly
+
+- name: Lorelei Schmitt
+  pic: 5
   position: member
   social:
     # - title: twitter
     #   url: #
+
+- name: Paraic Carrol
+  pic: paraic
+  position: member
+  social:
+    - title: briefcase
+      url: https://findanexpert.unimelb.edu.au/profile/1097654-paraic-carroll
     # - title: facebook
     #   url: #
     # - title: google-plus
     #   url: #
+
 - name: Euan Brown
   pic: euan
   position: member
   social:
     # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
-- name: Jon Bunker
-  pic: jonathan
-  position: member
-  social:
-    # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
     #   url: #
 
 - name: Fuad Huda
@@ -131,30 +105,14 @@ people:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
-- name: Neema Nassir
-  pic: 5
-  position: member
-  social:
-    # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
+
 - name: John Nelson
   pic: 5
   position: member
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
+
 - name: Peter Newman
   pic: peternewman
   position: member
@@ -162,30 +120,21 @@ people:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
+
 - name: Brendan O'Keeffe
   pic: brendan
   position: member
   social:
-    # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
     # - title: google-plus
     #   url: #
+
 - name: Mark O'Reilly
   pic: 5
   position: member
   social:
-    # - title: twitter
-    #   url: #
     # - title: facebook
     #   url: #
-    # - title: google-plus
-    #   url: #
+
 - name: Sekhar Somenahalli
   pic: sekhar
   position: member
@@ -209,28 +158,11 @@ people:
   social:
     # - title: twitter
     #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
-    #   url: #
-- name: Doug Weir
-  pic: dougweir
-  position: member
-  url: 
-  social:
-    - title: briefcase
-      url: •	https://www.stantec.com/en/people/w/weir-doug
-    - title: linkedin
-      url: •	https://www.linkedin.com/in/doug-weir-792abbb2/
 - name: Ian Woodcock
   pic: ian
   position: member
   social:
     # - title: twitter
-    #   url: #
-    # - title: facebook
-    #   url: #
-    # - title: google-plus
     #   url: #
 
 resources:
