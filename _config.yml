@@ -65,11 +65,13 @@ people:
     #   url: #
 
 - name: Lorelei Schmitt
-  pic: 5
+  pic: lorelei
   position: member
   social:
-    # - title: twitter
-    #   url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/lorelei-schmitt-09760715
+    - title: briefcase
+      url: https://www.nzta.govt.nz/walking-cycling-and-public-transport/public-transport/public-transport-framework/integrated-planning-and-design/public-transport-design-guidance/
 
 - name: Paraic Carrol
   pic: paraic
