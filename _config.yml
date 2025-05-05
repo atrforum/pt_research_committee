@@ -208,13 +208,12 @@ upcoming_events:
     url: https://www.atrf2025.org/
 
 
-  - name: Webinar
-    location: A gendered perspective on personal safety and security for public transportation journeys
-    date: Tuesday 29th April 2025, 2 p.m. AEST, 4 p.m. NZT
-    url: https://www.linkedin.com/feed/update/urn:li:activity:7307602225915146240/
-
-
 past_webinars:
+
+  - name: A Gendered Perspective on Personal Safety and Security for PT Journeys
+    url: https://youtu.be/yl9lFz_uuD4
+    description: Public transportation is a vital part of daily life, but safety concerns impact individuals differently based on gender. A GENDERED PERSPECTIVE ON PERSONAL SAFETY AND SECURITY FOR PUBLIC TRANSPORTATION JOURNEYS is a thought-provoking webinar that explores these disparities, uncovering real challenges and actionable solutions. Join the experts as we discuss how to create safer, more inclusive transit experiences for everyone. Through data-driven insights and firsthand perspectives, this session will highlight the steps needed to improve security, develop strategies and reporting of harassment incidences in public transportation. Whether you are a researcher, a transportation professional, or a policy maker, this webinar will equip you with the knowledge to drive meaningful change. Don't miss this opportunity to be part of the conversation—join us and help shape the future of safer public transport journeys. The webinar will be hosted by Dr Subeh Chowdhury, Senior Lecturer at the University of Auckland. The panellist includes Dr Rumana Sarker, Research Fellow at Monash University, Alicia Trost, Chief Communications Officer at the San Francisco Bay Area Rapid Transit District (BART) and Kirsten Tilleman, PhD student at the University of Auckland.
+    presentations: assets/a_gendered_perspective_pt_journeys.zip
 
   - name: Webinar On-Demand Public Transport in Australia and New Zealand
     url: https://www.youtube.com/watch?v=LKLP65cJL1w
