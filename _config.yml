@@ -202,7 +202,7 @@ resources:
 
 
 upcoming_events:
-  - name: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
+  - name: 
     location: Online
     date: 5 Nov 2025 2:00 p.m. AEST | 4:00 p.m. NZST
     url: https://unimelb.zoom.us/webinar/register/WN_GdY4Q6M3S7-m_Uyp1CPQKw
@@ -213,6 +213,11 @@ upcoming_events:
 
 
 past_webinars:
+
+  - name: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
+    url: https://youtu.be/UZUtFxQkjA0
+    description: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
+    # presentations: assets/a_gendered_perspective_pt_journeys.zip
 
   - name: A Gendered Perspective on Personal Safety and Security for PT Journeys
     url: https://youtu.be/yl9lFz_uuD4
