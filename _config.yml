@@ -202,10 +202,6 @@ resources:
 
 
 upcoming_events:
-  - name: 
-    location: Online
-    date: 5 Nov 2025 2:00 p.m. AEST | 4:00 p.m. NZST
-    url: https://unimelb.zoom.us/webinar/register/WN_GdY4Q6M3S7-m_Uyp1CPQKw
   - name: 46th ATRF
     location: Auckland
     date: 18-21 Nov 2025
