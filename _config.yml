@@ -202,10 +202,6 @@ resources:
 
 
 upcoming_events:
-  - name: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
-    location: Online
-    date: 5 Nov 2025 2:00 p.m. AEST | 4:00 p.m. NZST
-    url: https://unimelb.zoom.us/webinar/register/WN_GdY4Q6M3S7-m_Uyp1CPQKw
   - name: 46th ATRF
     location: Auckland
     date: 18-21 Nov 2025
@@ -213,6 +209,11 @@ upcoming_events:
 
 
 past_webinars:
+
+  - name: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
+    url: https://youtu.be/UZUtFxQkjA0
+    description: From e-bikes and e-scooters to smarter first- and last-mile hubs, this webinar shares real-world lessons and innovations on integrating micromobility into bus and rail networks to enhance accessibility, coverage, and ridership.
+    presentations: assets/micromobility_1125.zip
 
   - name: A Gendered Perspective on Personal Safety and Security for PT Journeys
     url: https://youtu.be/yl9lFz_uuD4
