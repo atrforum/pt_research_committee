@@ -205,13 +205,14 @@ upcoming_events:
     date: 24-26 Nov 2026
     url: https://atrf2026.org/
 
-  - name: GETTING AROUND --> Young people's perspectives on Public Transport
-    location: Online
-    date: 21 April 2026 2:00 p.m. AEST | 4:00 p.m. NZST
-    url: https://monash.zoom.us/webinar/register/WN_jEJY0r3MQC-9sKKBX8Y3mQ#/registration
 
 
 past_webinars:
+
+  - name: GETTING AROUND --> Young people's perspectives on Public Transport
+    url: https://www.youtube.com/watch?v=D32IwiRkKag
+    descriptions: GETTING AROUND --> Young people's perspectives on Public Transport
+
 
   - name: Integrating Micromobility into Public Transport Networks - Lessons and Innovations
     url: https://youtu.be/UZUtFxQkjA0
