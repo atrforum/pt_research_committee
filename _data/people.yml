@@ -1,0 +1,60 @@
+- name: Hamish Barnet
+  pic: hamish
+  position: Member
+
+- name: Lorelei Schmitt
+  pic: lorelei
+  position: Member
+  url: https://www.linkedin.com/in/lorelei-schmitt-09760715
+
+- name: Paraic Carroll
+  pic: paraic
+  position: Member
+  url: https://findanexpert.unimelb.edu.au/profile/1097654-paraic-carroll
+
+- name: Euan Brown
+  pic: euan
+  position: Member
+
+- name: Shaoyan Zou
+  pic: "5"
+  position: Member
+  url: http://publictransportresearchgroup.info/our-team/research-students/
+
+- name: Kathy Lazanas
+  pic: "5"
+  position: Member
+
+- name: John Nelson
+  pic: "5"
+  position: Member
+
+- name: Peter Newman
+  pic: peternewman
+  position: Member
+  url: https://en.wikipedia.org/wiki/Peter_Newman_(environmental_scientist)
+
+- name: Brendan O'Keeffe
+  pic: brendan
+  position: Member
+
+- name: Mark O'Reilly
+  pic: "5"
+  position: Member
+
+- name: Sekhar Somenahalli
+  pic: sekhar
+  position: Member
+  url: https://people.unisa.edu.au/sekhar.somenahalli
+
+- name: Ian Wallis
+  pic: "5"
+  position: Member
+
+- name: Adrian Webb
+  pic: adrian
+  position: Member
+
+- name: Ian Woodcock
+  pic: ian
+  position: Member

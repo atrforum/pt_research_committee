@@ -1,0 +1,18 @@
+- name: Graham Currie
+  pic: "1"
+  committee_role: Chair
+  position: Monash University
+  email: graham.currie@monash.edu
+  url: http://publictransportresearchgroup.info/our-team/professor-graham-currie/
+
+- name: Subeh Chowdhury
+  pic: "3"
+  committee_role: Vice-Chair
+  position: University of Auckland
+  url: https://profiles.auckland.ac.nz/s-chowdhury
+
+- name: James Reynolds
+  pic: "4"
+  committee_role: Secretary
+  position: Monash University
+  url: https://research.monash.edu/en/persons/james-reynolds

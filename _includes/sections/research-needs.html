@@ -1,0 +1,27 @@
+<section id="research-needs">
+  <h2>Research Needs</h2>
+
+  {% assign survey = site.data.research_needs_survey %}
+
+  <p>PTRC compiles a list of public transport research projects and priorities which are needed in Australasia:
+  </p>
+
+  <ul>
+    {% for item in site.data.research_needs %}
+      <li>
+        {% if item.url and item.url != "#" %}
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.text }}</a>
+        {% else %}
+          {{ item.text }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if survey.url and survey.url != '#' %}
+    <p>
+      <a class="btn btn--primary" href="{{ survey.url }}" target="_blank" rel="noopener noreferrer">{{ survey.text | default: 'Suggest a research need we are missing!' }}</a>
+    </p>
+  {% endif %}
+
+</section>

@@ -1,0 +1,42 @@
+upcoming:
+  - name: The TOD Revival - What has been happening in Melbourne, Sydney and Perth
+    location: Webinar
+    date: Nov 11, 2026 12:00 PM (Mel/Syd)
+    url: https://monash.zoom.us/webinar/register/WN_JT1w-lpzQVWcBhFxWNH5Pw#/registration
+  - name: 47th ATRF Conference
+    location: Sydney
+    date: 24-26 Nov 2026
+    url: https://atrf2026.org/
+
+past:
+  - name: "GETTING AROUND — Young People's Perspectives on Public Transport"
+    url: https://www.youtube.com/watch?v=D32IwiRkKag
+    description: "Young people's perspectives on public transport, exploring youth mobility, service design, and access."
+    video: https://www.youtube.com/watch?v=D32IwiRkKag
+
+  - name: "Integrating Micromobility into Public Transport Networks — Lessons and Innovations"
+    url: https://youtu.be/UZUtFxQkjA0
+    description: "From e-bikes and e-scooters to smarter first- and last-mile hubs, this webinar shares real-world lessons and innovations on integrating micromobility into bus and rail networks to enhance accessibility, coverage, and ridership."
+    slides: /assets/micromobility_1125.zip
+    video: https://youtu.be/UZUtFxQkjA0
+
+  - name: "A Gendered Perspective on Personal Safety and Security for PT Journeys"
+    url: https://youtu.be/yl9lFz_uuD4
+    description: "Public transportation is a vital part of daily life, but safety concerns impact individuals differently based on gender. This thought-provoking webinar explores these disparities, uncovering real challenges and actionable solutions to improve security and reporting in public transport. Hosted by Dr Subeh Chowdhury (University of Auckland) with Dr Rumana Sarker (Monash University), Alicia Trost (BART), and Kirsten Tilleman (University of Auckland)."
+    slides: /assets/a_gendered_perspective_pt_journeys.zip
+    video: https://youtu.be/yl9lFz_uuD4
+
+  - name: "On-Demand Public Transport in Australia and New Zealand"
+    url: https://www.youtube.com/watch?v=LKLP65cJL1w
+    description: "This webinar explores the role of on-demand public transport in Australia and New Zealand, discussing several case studies with examples from successful public transport operators."
+    video: https://www.youtube.com/watch?v=LKLP65cJL1w
+
+  - name: "Trackless Trams — A New Mid-Tier Transit System"
+    url: https://www.youtube.com/watch?v=_sZ4xpqvIhg
+    description: "The need for mid-tier transit in Australasian cities is growing as we recognise the role that can be played as a high-capacity connector down main roads and an enabler of urban regeneration around station precincts. Based on research at Curtin University with communities, governments, and industry."
+    video: https://www.youtube.com/watch?v=_sZ4xpqvIhg
+
+  - name: "Academics Supporting Advocates — Improving Effective Collaboration"
+    url: https://www.youtube.com/watch?v=zbm0bgm2U1c
+    description: "Exploring the role that researchers and academics can play to support public transport advocates to encourage change and build support for new policies or investment, including understanding advocacy opportunities and working together to drive change."
+    video: https://www.youtube.com/watch?v=zbm0bgm2U1c

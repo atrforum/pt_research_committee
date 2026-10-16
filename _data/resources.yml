@@ -1,0 +1,31 @@
+databases:
+  - name: "Public Transport Research Paper Database of the Australasian Transport Research Forum (since 1975)"
+    url: https://australasiantransportresearchforum.org.au/papers/?sdata=public+transport
+  - name: "The World Transit Research Clearinghouse"
+    url: https://www.worldtransitresearch.info/
+  - name: "Publication Library of the US Transit Cooperative Research Program (TCRP)"
+    url: https://nap.nationalacademies.org/author/TCRP/transportation-research-board/transit-cooperative-research-program
+  - name: "Public Transport Research Reports of the NZ Transport Agency (Waka Kotahi)"
+    url: https://www.nzta.govt.nz/walking-cycling-and-public-transport/public-transport/planning-and-investing-in-public-transport/public-transport-research
+  - name: "PTRC Live List of Public Transport Data Resources"
+    url: https://docs.google.com/spreadsheets/d/1E-M-SUzQu0D6BE9kniDRaitEbBuDDyieQpqCzVS3rOs/edit?gid=0#gid=0
+
+podcasts:
+  - name: "Researching Transit"
+    url: http://publictransportresearchgroup.info/home-creative/podcast/
+  - name: "The Overhead Wire"
+    url: https://theoverheadwire.com/
+  - name: "Transit Unplugged"
+    url: https://www.transitunplugged.com/
+  - name: "Between The Lines: A Metrolinx Podcast"
+    url: https://podcasts.apple.com/us/podcast/between-the-lines-a-metrolinx-podcast/id1593439320
+
+anz_research_centres:
+  - name: "TRC (University of Auckland)"
+    url: https://www.auckland.ac.nz/en/engineering/our-research/discover/research-areas-and-facilities/transportation.html
+  - name: "Public Transport Research Group (Monash University)"
+    url: http://publictransportresearchgroup.info/
+  - name: "Institute of Transport and Logistics Studies (Sydney University)"
+    url: https://www.sydney.edu.au/business/our-research/institute-of-transport-and-logistics-studies.html
+
+other: []
