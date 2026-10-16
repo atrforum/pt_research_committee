@@ -1,5 +1,5 @@
-url: https://atrforum.github.io/transport_research_committee
-baseurl:
+url: https://ptrc.atrf.link
+baseurl: ""
 
 # Site settings
 title: PTRC
@@ -247,3 +247,11 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - README.md
+  - LICENSE
