@@ -1,14 +1,15 @@
 upcoming:
-  - name: The TOD Revival - What has been happening in Melbourne, Sydney and Perth
-    location: Webinar
-    date: Nov 11, 2026 12:00 PM (Mel/Syd)
-    url: https://monash.zoom.us/webinar/register/WN_JT1w-lpzQVWcBhFxWNH5Pw#/registration
   - name: 47th ATRF Conference
     location: Sydney
     date: 24-26 Nov 2026
     url: https://atrf2026.org/
 
 past:
+  - name: "The TOD Revival - What has been happening in Melbourne, Sydney and Perth"
+    url: https://www.youtube.com/watch?v=D32IwiRkKag
+    description: "The TOD Revival - What has been happening in Melbourne, Sydney and Perth"
+    video: https://www.youtube.com/watch?v=XL8O2861GU4
+
   - name: "GETTING AROUND — Young People's Perspectives on Public Transport"
     url: https://www.youtube.com/watch?v=D32IwiRkKag
     description: "Young people's perspectives on public transport, exploring youth mobility, service design, and access."
